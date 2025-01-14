@@ -107,7 +107,7 @@ export function MovieDetails({
               </p>
               <p>
                 <span>⭐️</span>
-                {imdbRating.toFixed(1) || "N/A"} IMDb rating
+                {imdbRating?.toFixed(1) || "N/A"} IMDb rating
               </p>
             </div>
           </header>
